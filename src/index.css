@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#abc {
+    background-image: url("https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?w=996&t=st=1701107458~exp=1701108058~hmac=dca31990aa36992df1ba23bcf5300fb12be01f52c777b33bc5adf3841eee9de7");
+   
+    background-size: 100% 100%;
+  }
+  

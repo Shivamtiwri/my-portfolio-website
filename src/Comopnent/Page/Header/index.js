@@ -3,11 +3,12 @@ import img from "../../Assect/shivam.jpeg"
 
 const Header = () => {
     return (
-        <div>
-            <div className='flex items-center justify-between bg-blue-100 px-5 py-5 '>
-                <p className='font-bold text-black text-4xl'>Shivam Tiwari</p>
-                <img src={img} alt='' className='rounded-full h-52 w-52'/>
-            </div>
+        <div className='px-10 bg-gradient-to-r from-indigo-500 py-5'>
+           <div className='border rounded flex justify-between py-5 px-5 '>
+            <p className='text-4xl font-bold'>Shivam Tiwari</p>
+            <p className='border font-bold  rounded-md py-3 px-3 cursor-pointer hover:bg-gradient-to-r hover:from-sky-500'>Contact Us</p>
+
+           </div>
             
         </div>
     );
